@@ -28,6 +28,13 @@ The simulation was first configured using the TIMS online simulator. A sequence 
 
 The multiplier module generated the BPSK waveform by combining the digital signal with the carrier. When the digital signal changed state, the phase of the carrier reversed by 180 degrees. The oscilloscope in the simulator was used to observe both the digital signal and the generated BPSK waveform to verify the phase transitions.
 
+## Result
+<p align="center">
+<img src="https://github.com/user-attachments/assets/38a800b2-fd3f-4d93-842e-d6de9cadb814" width="400">
+<br>
+<b>Figure 17.1</b> Part A – BPSK signal observed during the modulation process.
+</p>
+
 ---
 
 ## Part B – Demodulating a BPSK Signal Using a Product Detector
@@ -38,6 +45,13 @@ After the multiplication process, the output signal contained both low-frequency
 
 The recovered signal was displayed on the oscilloscope and compared with the original digital signal produced by the sequence generator.
 
+## Result
+<p align="center">
+<img src="https://github.com/user-attachments/assets/dac71b73-3ee2-4f0c-9ae6-e43fa946c782" width="400">
+<br>
+<b>Figure 17.2</b> Part B – Demodulating the signal.
+</p>
+
 ---
 
 ## Part C – Restoring the Recovered Data Using a Comparator
@@ -47,6 +61,31 @@ Although the recovered signal resembled the original digital waveform, it still 
 The output of the low-pass filter was connected to the comparator input. A variable DC reference voltage was then adjusted to set the comparator’s threshold level. When the input signal exceeded the threshold, the comparator produced a high output, and when it fell below the threshold, the output switched to a low level.
 
 By adjusting the threshold voltage appropriately, the recovered waveform was restored into a clear digital signal with sharp transitions.
+
+## Result
+<p align="center">
+<img src="https://github.com/user-attachments/assets/a61cffa0-b806-4885-b504-27ad025871ae" width="400">
+<br>
+<b>Figure 17.3</b> Part C – Final restored digital signal observed after demodulation.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/30d5345f-c244-47b3-813c-2b57c17d761b" width="400">
+<br>
+<b>Figure 17.4</b> Effect of noise at −6 dB on the BPSK signal.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/980ad7fb-0378-472e-9d67-b24dfc6b87ab" width="400">
+<br>
+<b>Figure 17.5</b> Effect of noise at −20 dB on the BPSK signal.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7cf4a547-b889-4f22-87c1-aca37bdc6baa" width="400">
+<br>
+<b>Figure 17.6</b> Effect of noise at 0 dB on the BPSK signal.
+</p>
 
 ---
 

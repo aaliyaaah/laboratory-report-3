@@ -47,6 +47,31 @@ Each of these digital signals was then connected to a multiplier module to perfo
 
 The outputs of the two multipliers were then combined using an Adder module to form the final QPSK signal. The waveform was observed on the oscilloscope to examine how the phase of the signal changed as the digital input varied.
 
+### Result 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/05368eff-0f7c-47ec-90e6-d24661f58feb" width="400">
+<br>
+<b>Figure 18.1</b> Part A – Signal observation during Steps 11–17 of the QPSK generation process.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/853cd98b-587d-463c-96b7-eafd5cfe1286" width="400">
+<br>
+<b>Figure 18.2</b> Part A – Waveform observed during Steps 18–21.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/2624ef50-e66e-4c91-b7f3-6f2c88a607f1" width="400">
+<br>
+<b>Figure 18.3</b> Part A – Signal behavior observed during Steps 22–24.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c0623f07-665f-49c9-ac99-5a2a12c0a0e4" width="400">
+<br>
+<b>Figure 18.4</b> Part A – Final signal observation during Step 25.
+</p>
+
 ### Observation
 
 The waveform displayed noticeable phase changes corresponding to the digital input data. This confirmed that the two BPSK signals were successfully combined to create the QPSK signal.
@@ -110,6 +135,31 @@ In this part of the experiment, phase discrimination was used to isolate one of 
 A Phase Shifter module was used to adjust the phase of the local carrier so that it could align with one of the carrier signals used during modulation. The output of the multiplier was then passed through a Tuneable Low-Pass Filter to remove the high-frequency components and recover the baseband digital signal.
 
 By slowly adjusting the phase of the local carrier and observing the signal on the oscilloscope, one of the digital data streams could be recovered from the QPSK signal.
+
+### Result
+<p align="center">
+<img src="https://github.com/user-attachments/assets/136ce0f5-3188-4a4a-8b3a-7f484b90197d" width="400">
+<br>
+<b>Figure 18.5</b> Part B – Phase shifter adjusted clockwise to 0°.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d0f64030-4789-420a-aa2e-585b7360d4d1" width="400">
+<br>
+<b>Figure 18.6</b> Part B – Phase shifter adjusted clockwise to 180°.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/b71a3e88-62af-444b-82e4-05d8d5be458f" width="400">
+<br>
+<b>Figure 18.7</b> Part B – Phase shifter adjusted counterclockwise to 0°.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d1d43739-0f53-499e-acd4-28e631a8caf4" width="400">
+<br>
+<b>Figure 18.8</b> Part B – Phase shifter adjusted counterclockwise to 180°.
+</p>
 
 ### Observation
 

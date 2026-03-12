@@ -10,15 +10,6 @@ In this experiment, an FSK signal was generated using a Voltage Controlled Oscil
 
 ---
 
-## Equipment
-
-- Emona Telecoms-Trainer 101 (plus power pack)  
-- Dual channel oscilloscope  
-- Oscilloscope leads  
-- Assorted patch leads  
-
----
-
 # Part A – Generating an FSK Signal
 
 In this part of the experiment, the FSK signal was produced by using the Sequence Generator module to create a digital signal. This signal was connected to the input of the Voltage Controlled Oscillator so that the oscillator would switch between two different frequencies depending on the digital input.
@@ -128,3 +119,28 @@ After passing the filtered signal through the envelope detector, the recovered s
 ## Conclusion
 
 The experiment successfully demonstrated the generation and demodulation of a Frequency Shift Keying (FSK) signal. The VCO module was able to produce two different frequencies depending on the digital input signal, forming the FSK waveform. By using a tuneable low-pass filter and an envelope detector, the digital information was recovered from the modulated signal. Finally, the comparator was able to restore the recovered waveform into a clean digital signal with sharp transitions. This experiment showed how FSK modulation can be used to transmit digital data and how filtering and detection techniques are used to recover the original information.
+
+---
+
+## Additional Notes
+
+### Advantages of FSK
+
+- More resistant to noise compared to amplitude-based modulation methods  
+- The information is encoded in frequency changes, which are less affected by amplitude variations  
+- Provides more reliable communication in noisy environments  
+
+### Disadvantages of FSK
+
+- Requires a larger bandwidth compared to some other digital modulation techniques  
+- The transmitter and receiver circuits can be more complex than ASK systems  
+- Frequency stability is important to ensure proper signal detection  
+
+### Applications
+
+FSK is commonly used in several communication systems such as:
+
+- Modems used in data communication  
+- Radio communication systems  
+- Caller ID transmission in telephone networks  
+- Telemetry and remote monitoring systems

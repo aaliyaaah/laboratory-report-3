@@ -24,6 +24,13 @@ Next, the Sequence Generator module was configured to produce a simple digital d
 
 After connecting the modules according to the circuit diagram, the oscilloscope was used to observe both the digital signal and the output of the VCO. It was observed that the oscillator output alternated between two different frequencies depending on the state of the digital input signal. This confirmed that the FSK signal was successfully generated.
 
+## Result
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d8adf78c-30c0-4a88-9548-702a1947ba84" width="400">
+<br>
+<b>Figure 16.1</b> Part A – Waveform observed during Step 12.
+</p>
+
 ---
 
 ### Question 1
@@ -65,6 +72,19 @@ After modifying the circuit to include the filter module, the cut-off frequency 
 
 At this point, the output of the filter appeared as bursts of a sinusoidal waveform corresponding to one of the frequencies in the FSK signal. The signal was then passed through an envelope detector to extract the digital information from the filtered waveform.
 
+## Result
+<p align="center">
+<img src="https://github.com/user-attachments/assets/41b99171-d50a-42e5-8c93-8c294de0d661" width="400">
+<br>
+<b>Figure 16.2</b> Part B – Signal observed during Step 18 of the procedure.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/4168301f-9b36-46da-bae4-4d49c7d488df" width="400">
+<br>
+<b>Figure 16.3</b> Part B – Waveform observed during Step 21.
+</p>
+
 ---
 
 ### Question 4
@@ -97,9 +117,18 @@ The amplitude of the signal entering the comparator was measured, and the Variab
 
 By slightly adjusting the reference voltage, the output of the comparator began to closely match the original digital signal. The transitions of the recovered signal became sharper and the waveform resembled a clean digital square wave.
 
+## Result 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/10f9f129-cb40-4920-af68-dfeecdbec187" width="400">
+<br>
+<b>Figure 16.4</b> Part C – Final output waveform after signal restoration.
+</p>
+
+
 ---
 
 ### Question 7
+
 
 How does the comparator turn the slow rising voltages of the recovered digital signal into sharp transitions?
 

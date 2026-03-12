@@ -56,13 +56,41 @@ The digital signal controlled a **Dual Analog Switch**, which determined whether
 2. Configure the oscilloscope to observe both the digital signal and the ASK signal.
 3. Set the oscilloscope trigger source and coupling to obtain a stable waveform display.
 4. Set the input coupling of both oscilloscope channels to **DC**.
-5. Adjust the oscilloscope time base to approximately **1 ms/div** for clear observation of the signals.
+5. Adjust the oscilloscope time base to approximately **2 ms/div** for clear observation of the signals.
 6. Connect the Sequence Generator, Master Signals module, and Dual Analog Switch according to the required configuration.
 7. Observe the digital signal and the resulting ASK waveform on the oscilloscope display.
 
-### Observation
+## Results
 
-The ASK signal appears as a **carrier waveform that is present only when the digital signal is high**. When the digital signal is low, the carrier disappears from the output.
+<p align="center">
+<img src="https://github.com/user-attachments/assets/0d91a955-d5b9-48fe-a6d9-b44726cb5c10" width="400">
+<br>
+<b>Figure 15.1</b> Noise waveform observed on the oscilloscope.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/1f199500-3c72-43b1-b2e6-357592f2dc61" width="400">
+<br>
+<b>Figure 15.2</b> Noise signal with adjusted oscilloscope settings.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/0f67bd1a-c854-4e2e-bea5-e1bbfe4c72a7" width="400">
+<br>
+<b>Figure 15.3</b> Part A waveform observed using 2 ms/div timebase.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/5ce42aab-e8bc-4c78-b4e7-9f5d3ece095a" width="400">
+<br>
+<b>Figure 15.4</b> Signal observation during Part A Step 13 adjustments.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/158dcc44-a443-4ed7-a816-35ecf82e7891" width="400">
+<br>
+<b>Figure 15.5</b> Final waveform obtained after completing Part A.
+</p>
 
 ---
 
@@ -97,6 +125,12 @@ The envelope detector consists of:
 
 The recovered signal resembles the original digital waveform but may appear **slightly distorted or smoothed** due to the filtering process.
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/eb92a9c6-1500-4486-a2ec-3d66067faffd" width="400">
+<br>
+<b>Figure 15.6</b> Part B – Final waveform after completing the procedure.
+</p>
+
 ---
 
 # Part C – Restoring the Recovered Digital Signal
@@ -111,6 +145,13 @@ A comparator converts the recovered analog waveform into a **clean digital signa
 2. Adjust the **Variable DC reference level** to approximately the middle of the signal amplitude.
 3. Observe both the recovered signal and the comparator output on the oscilloscope.
 4. Compare the restored digital signal with the original digital input.
+
+## Result
+<p align="center">
+<img src="https://github.com/user-attachments/assets/be6e94ac-28b8-4bd3-9909-555ef7f4c97e" width="400">
+<br>
+<b>Figure 15.7</b> Part C – Final waveform observed after completing Step 20.
+</p>
 
 ---
 

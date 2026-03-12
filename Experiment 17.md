@@ -98,3 +98,28 @@ When noise was introduced into the simulated communication channel, the recovere
 The experiment successfully demonstrated the generation and demodulation of a Binary Phase Shift Keying (BPSK) signal. The BPSK waveform was produced by combining a digital signal with a carrier signal using a multiplier module. The demodulation process used a product detector and a low-pass filter to recover the transmitted information.
 
 Although the recovered signal initially contained distortions, the comparator module was able to restore the waveform into a clean digital signal. This experiment highlighted how phase modulation can be used to transmit digital data and how signal processing techniques are applied to recover information at the receiver. The use of the **TIMS online simulator** allowed the behavior of the communication system to be observed clearly in a virtual environment.
+
+---
+
+## Additional Notes
+
+### Advantages of BPSK
+
+- More resistant to noise compared to amplitude-based modulation methods  
+- Provides reliable data transmission since information is carried through phase changes  
+- Simple modulation technique compared to more complex phase modulation schemes  
+
+### Disadvantages of BPSK
+
+- Transmits only one bit per symbol, which limits data transmission efficiency  
+- Requires accurate phase synchronization between transmitter and receiver  
+- Demodulation circuits can be more complex compared to ASK systems  
+
+### Applications
+
+BPSK is commonly used in several communication systems such as:
+
+- Satellite communication systems  
+- Wireless communication networks  
+- Deep-space communication systems  
+- GPS signal transmission

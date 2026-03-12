@@ -42,6 +42,13 @@ Both signals were applied to the Multiplier module to produce a **DSBSC signal**
 
 The DSBSC signal produced by the multiplier showed alternating halves of its envelope that followed the shape of the original message signal.
 
+### Result
+<p align="center">
+<img src="https://github.com/user-attachments/assets/150dc5de-5801-4eab-94b4-776074f0fa77" width="400">
+<br>
+<b>Figure 20.1</b> Part A – Signal observation during Step 6.
+</p>
+
 ---
 
 ### Question 1  
@@ -84,6 +91,20 @@ The output of the Sample-and-Hold circuit produced an undersampled version of th
 
 The undersampled signal was compared with the original message signal to observe how undersampling effectively shifted the signal into the baseband region.
 
+### Results
+<p align="center">
+<img src="https://github.com/user-attachments/assets/b7380390-11d8-44ad-95bb-96ac60a325c6" width="400">
+<br>
+<b>Figure 20.2</b> Part B – Signal observation during Step 8.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/34a0eca9-2324-4b02-885c-e3966ba63c75" width="400">
+<br>
+<b>Figure 20.3</b> Part B – Signal observation during Step 10.
+</p>
+
+
 ---
 
 ### Question 3  
@@ -121,6 +142,19 @@ The sampling signal source was modified by replacing the Master Signals module�
 The recovered signal was observed on the oscilloscope while the VCO frequency was slightly adjusted using the frequency control knob. Changes in the recovered message signal were noted as the frequency error increased or decreased.
 
 This demonstrated how synchronization errors between the sampling signal and the modulated carrier can affect demodulation performance.
+
+### Results
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f45476e6-176b-4f9c-a60f-5a505e4505cf" width="400">
+<br>
+<b>Figure 20.4</b> Part C – Signal observation during Step 19.
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/18942747-2211-44b5-bce2-5e47886e85ce" width="400">
+<br>
+<b>Figure 20.5</b> Part C – Signal observation during Step 21.
+</p>
 
 ---
 
